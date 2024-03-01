@@ -1,0 +1,836 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+body {
+    /* overflow-x: hidden;  */
+
+  }
+
+* {
+margin: 0;
+padding: 0;
+}
+
+.main{
+        background-image: url(assets/Background.jpg);
+        height:69vw; /* Adjust to viewport height */
+        width: 100vw; /* Adjust to viewport width */
+        background-repeat: no-repeat;
+        background-size: cover; /* Ensure background image covers the entire viewport */
+        position: relative;
+    }
+
+   
+
+    .navbar{
+        height: 5vw;
+        width: 100%;
+ 
+      
+    }
+    .navbar img {
+        height: 2vw;
+        position: relative;
+        left: 11vw;
+        top: 2vw;
+        z-index: 10; 
+       
+        
+      }
+      /* .button1{
+        height: 2vw;
+    width: 3vw;
+        color: white;
+        background-color: red;
+        z-index: 10;
+      } */
+      .button1 {
+        height: 2vw;
+        width: 5vw;
+        color: white;
+        background-color: #d10611;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 85vw;
+        top: -3vw;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+    
+    .button2 {
+        height: 2vw;
+        width: 8vw;
+        color: white;
+        background-color: black;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 74vw;
+        top: -5vw;
+        border-radius: 3px;
+        opacity: 0.6;
+        cursor: pointer;
+       }
+.button2:active{
+    border: 2px solid white;
+}
+    
+    .box{
+        background-color: black;
+        height:69vw; 
+        width: 100vw;
+        opacity: 0.6;
+        position: relative;
+    top: -9vw;
+    }
+
+    .black1{
+        background-color:black;
+        height: 43vw;
+        width: 100%;
+        position: relative;
+        top: -53vw;
+    }
+    
+    .sepration{
+        background-color: #2d2a2a;
+        /* background-color: #d10611; */
+        height: 10px;
+        width: 100%;
+        position: relative;
+        top: -53vw;
+    }
+
+    .img1{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        left: 45vw;
+        top: 3vw;
+
+    }
+
+    .text {
+        color: white;
+        font-family: "Martel Sans", sans-serif;
+       
+        position: relative;
+        top: -63vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+   
+      }
+
+     
+ .text:nth-child(1){
+    font-size: 41px;
+    font-weight: 900;
+}
+     
+.tex2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tex3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -58vw;
+  }
+  
+  .left-aligned-input {
+    text-align: left;
+    width: 21vw;
+    height: 3vw;
+    font-size: 1vw;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    
+    border-radius: 4px;
+    position: relative;
+    top: -5vw;
+    left: -7vw;
+    border: 1px solid #ffffff61;
+  }
+
+
+  .button3 {
+    height: 3vw;
+    width: 12vw;
+    color: white;
+    background-color: #d10611;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 55vw;
+    top: -66vw;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+
+  .text2{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: -15vw;
+    left: 8vw;
+  }
+
+  .video1{
+    position: relative;
+    height: 17vw;
+    width: 100%;
+    left: 16.5vw;
+    top: -29vw;
+  }
+  
+
+  .img1{
+    z-index: 1;
+  }
+  .a1{
+    font-size: 41px;
+    font-weight: 900;
+  }
+  .a2{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .a3{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+
+  .black2{
+    background-color:black;
+    height: 31vw;
+    width: 100%;
+    position: relative;
+    top: -13vw;
+}
+
+.sepration1{
+    background-color: #2d2a2a;
+    height: 10px;
+    width: 100%;
+    position: relative;
+    top: -13vw;
+}
+
+.hero1 img {
+  
+    height: 25vw;
+    width: 36vw;
+    position: relative;
+    left: 6vw;
+  }
+  
+  .text3{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: -17vw;
+    left: 42vw;
+   }
+
+.b1{
+    font-size: 41px;
+    font-weight: bolder;
+}
+
+.b2{
+    font-size: 41px;
+    font-weight: bolder;
+}
+
+.b3{
+    font-size: 20px;
+    font-weight: 400;
+}
+  .black3{
+    background-color:black;
+    height: 40vw;
+    width: 100%;
+    position: relative;
+    top: -13vw;
+}
+
+.sepration2{
+    background-color: #2d2a2a;
+    height: 10px;
+    width: 100%;
+    position: relative;
+    top: -13vw;
+}
+
+.hero2{
+    position: relative;
+    top: 4vw;
+    left: 46vw;
+    z-index: 1;
+  }
+  
+  .video2{
+    position: relative;
+    top: -10vw;
+    width: 27%;
+    left: 11vw;
+  }
+  .text4{
+    color: white;
+    position: relative;
+    top: -20vw;
+    left: 10vw;
+    display: flex;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: bolder;
+    flex-direction: column;
+  }
+
+  .c1{
+    font-size: 41px;
+    font-weight: bolder;
+}
+
+.c2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.c3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text5{
+  color: white;
+  position: relative;
+  display: flex;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: bolder;
+  flex-direction: column;
+  top: -39vw;
+  left: 50vw;
+}
+
+.d1{
+  font-size: 41px;
+  font-weight: bolder;
+}
+
+.d2{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.d3{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.hero3 img{
+  position: relative;
+  top: 4vw;
+  left: 5vw;
+}
+
+.sepration3{
+  background-color: #2d2a2a;
+    height: 10px;
+    width: 100%;
+    position: relative;
+    top: -24vw;
+}
+
+.black4{
+  background-color: black;
+  height: 55vw;
+  width: 100%;
+  position: relative;
+  top: -24vw;
+
+}
+.text6{
+  color: white;
+  position: relative;
+  display: flex;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: bolder;
+  flex-direction: column;
+  top: 5vw;
+    left: 32vw;
+} 
+
+.e1{
+  font-size: 41px;
+  font-weight: bolder;
+}
+
+
+
+.box1{
+  height: 5vw;
+  background-color: #3c3c3c;
+  position: relative;
+  top: 4vw;
+  left: 9vw;
+  width: 83%;
+  display: flex;
+}
+
+.e2{
+  font-size: 24px;
+    position: relative;
+    top: 1vw;
+    left: 1vw;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+  
+}
+
+.sepration4{
+  height: 5px;
+  width: 100%;
+  position: relative;
+  top: 1vw;
+}
+
+.left-aligned-input1{
+  text-align: left;
+  width: 21vw;
+  height: 1vw;
+  font-size: 1vw;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+ 
+  border-radius: 4px;
+  position: relative;
+  border: 1px solid #ffffff61;
+  top: 71vw;
+    left: -7vw;
+
+}
+
+.email1{
+ 
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -58vw;
+  
+}
+
+
+.button4 {
+  height: 3vw;
+  width: 12vw;
+  color: white;
+  background-color: #d10611;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 55vw;
+  top: 10vw;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.e3{
+  font-size: 15px;
+    color: white;
+    position: relative;
+    top: 12vw;
+    left: 31vw;
+  font-family: "Martel Sans", sans-serif; 
+  
+}
+
+.sepration5{
+background-color: #2d2a2a;
+height: 10px;
+width: 100%;
+position: relative;
+top: 12vw;
+}
+
+.black5{    
+  background-color: black;
+  height: 24vw;
+  width: 100%;
+  position: relative;
+  top: 12vw;
+}
+
+
+
+
+
+
+@media screen and (max-width: 550px) {
+
+  body{
+overflow-x: visible;    
+max-width: 550px;
+
+
+  }
+
+
+    .main {
+        width: 100%;
+        height: 110vw;
+
+    }
+
+    .box {
+        position: relative;
+        top: -30vw;
+        width: 100%;
+        height: 121vw;
+    }
+
+
+    .text:nth-child(1) {
+        position: relative;
+        align-items: center;
+        top: -98vw;
+        font-weight: 900;
+        font-size: 32px;
+
+    }
+
+    .tex2 {
+        font-size: 14.5px;
+        font-weight: 00;
+        position: relative;
+        align-items: center;
+        flex-direction: column;
+        /* left: 8vw; */
+
+    }
+
+    .tex3 {
+        font-size: 12px;
+        position: relative;
+        align-items: center;
+        /* left: -8vw; */
+    }
+
+    .button1 {
+        position: relative;
+        left: 80vw;
+        width: 15%;
+        border-radius: 4px;
+        height: 7vw;
+    }
+
+    .button2 {
+        position: relative;
+        left: 62vw;
+        top: -10vw;
+        width: 15%;
+        border-radius: 4px;
+        height: 7vw;
+    }
+
+    .left-aligned-input {
+        position: relative;
+        top: -37vw;
+        left: 3vw;
+        height: 6vw;
+        width: 60vw;
+        flex-direction: column;
+        font-size: 3.5vw;
+    }
+
+
+    .button3 {
+        position: relative;
+        top: -90vw;
+        font-size: 3.5vw;
+        height: 10vw;
+        width: 28vw;
+        left: 38vw;
+    }
+
+    .sepration{
+        position: relative;
+        top: -88vw;
+     
+    }
+
+    .img1 img{
+      width: 100%;
+      height: 75vw;
+      position: relative;
+      top: 20vw;
+      left: 35vw;
+    }
+
+    .black1{
+      position: relative;
+      top: -88vw;
+     height: 125vw;
+    }
+
+    .img1{
+      position: relative;
+      top: 22vw;
+      left: -30vw;
+      width: 90%;
+      
+    }
+
+    .text2{
+      position: relative;
+      top: 65vw;
+    }
+
+    .a1{
+      position: relative;
+      align-items: center;
+      top: -50vw;
+      left: 5vw;
+      font-weight: 900;
+      font-size: 32px;
+      
+
+
+    }
+    .a2{
+      font-size: 14.5px;
+      top: -50vw;
+      left: -6.5vw;
+      position: relative;
+      align-items: center;
+      flex-direction: column;
+    }
+    .a3{
+      font-size: 12px;
+      top: -50vw;
+      left: 19vw;
+      position: relative;
+      align-items: center;
+    }
+
+    .video1{
+      position: relative;
+top: 35vw;
+left: -50vw;
+width: 200vw;
+height: 35vw;
+   }
+
+   .sepration1{
+    position: relative;
+    top: 63.5vw;
+   }
+
+   .black2{
+    position: relative;
+    top: 63.5vw;
+    height: 127vw;
+
+    
+   }
+
+   .hero1 img{
+ 
+ width: 100%;
+    height: 75vw;
+    position: relative;
+    left: 1vw;
+    top: 55vw;
+   }
+   /* .text3{
+    position: relative;
+    top: 65vw;
+   } */
+
+  .b1{
+    position: relative;
+    align-items: center;
+    top: -50vw;
+    left:-41vw;
+    font-weight: 900;
+    font-size: 32px;
+  }
+  .b2{
+    font-size: 14.5px;
+    top: -50vw;
+    left: -6.5vw;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+  }
+.b3{
+  font-size: 12px;
+  top: -50vw;
+  left: -32vw;
+  position: relative;
+  align-items: center;
+}
+
+.c1{
+  position: relative;
+  align-items: center;
+  top: -60vw;
+  /* left:-41vw; */
+  font-weight: 900;
+  font-size: 32px;
+}
+.c2{
+  font-size: 14.5px;
+   top: -60vw;
+  left: -6.5vw; 
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.c3{
+  font-size: 12px;
+  top: -60vw;
+  left: 25vw;
+  position: relative;
+  align-items: center;
+}
+
+.hero2{
+  top: 50vw;
+  left: 13vw;
+  width: 80%;
+  position: relative;
+  align-items: center;
+}
+
+.video2{
+  top: -5vw;
+  left: 30vw;
+  position: relative;
+  align-items: center;
+  width: 47%;
+  height: auto;
+  
+}
+.hero3 img{
+  width: 100%;
+  position: relative;
+ top: 50vw; 
+  left: 1vw;
+}
+
+.d1{
+  position: relative;
+  align-items: center;
+  font-weight: 900;
+  font-size:32px;
+  top: -15vw;
+  left:-45vw;
+
+}
+.d2{
+  font-size: 13px;
+  top: -15vw;
+  left:-45vw;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.d3{
+  font-size: 12px;
+  top: -15vw;
+  left:-40vw;
+  position: relative;
+  align-items: center;
+}
+
+.sepration2{
+  position: relative;
+  top: 39vw;
+
+}
+
+.black3{
+position: relative;
+top: 39vw;
+height: 138vw;
+}
+
+.e1{
+  width: 200%;
+  font-size:25px;
+  font-weight: bolder;
+  position: relative;
+  left: -25vw;
+}
+
+.box1{
+  height: 13vw;
+  position: relative;
+  top: 10vw;
+
+}
+.e2{
+
+  font-size: 18px;
+  margin-top:2vw ;
+  margin-left: 2vw;
+}
+
+.e3{
+  position: relative;
+  top: 25vw;
+  font-size: 12px;
+  left: 2vw;
+}
+
+.left-aligned-input1{
+  position: relative;
+ 
+  top: 88vw;
+  height: 6vw;
+  width: 45vw;
+  flex-direction: column;
+  font-size: 3.5vw;
+}
+
+.button4{
+  position: relative;
+  top: 35vw;
+left: 30vw;
+  font-size: 3.5vw;
+  height: 10vw;
+  width: 28vw;
+}
+}
+
